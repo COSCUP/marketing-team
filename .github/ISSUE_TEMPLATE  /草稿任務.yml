@@ -1,0 +1,22 @@
+name: 草稿任務
+description: 事先規劃時，使用的 Template
+title: "[Draft]: "
+labels: draft
+type: Task
+projects:
+  - COSCUP/11
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **這是公開看板，請勿提及個資等敏感資訊**
+
+        ### 我們如何使用看板協作
+        1. 預設所有議程任務的狀態都會更新在看板上，以讓大家瞭解籌劃的進度。
+        2. 建立卡片時，標題追求言簡意賅，描述內容請追求團隊裡有兩個人以上可以完全看懂
+        3. 工作細節的討論、相關檔案與連結等，請一律集結到對應的卡上，方便後人了解全貌
+        4. 隨時移動卡片所在列表，更新工作進度
+  - type: textarea
+    attributes:
+      label: 任務內容
+      description: 草稿任務可以留空即可
