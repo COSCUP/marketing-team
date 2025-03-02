@@ -1,7 +1,9 @@
 name: 草稿任務
 description: 事先規劃時，使用的 Template
 title: "[Draft]: "
-labels: draft
+labels:
+  - draft
+  - year:2025
 type: Task
 projects:
   - COSCUP/11
