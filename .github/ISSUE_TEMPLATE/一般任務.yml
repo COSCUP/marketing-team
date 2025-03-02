@@ -1,6 +1,8 @@
 name: 一般任務
 description: 一般任務時，使用的 Template
 type: Task
+labels:
+  - year:2025
 projects:
   - COSCUP/11
 body:
