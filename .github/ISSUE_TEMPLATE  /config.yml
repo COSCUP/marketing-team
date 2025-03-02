@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: COSCUP 志工系統
+    url: https://volunteer.coscup.org
+    about: COSCUP 管理志工用的系統，包含一些文件跟申請。
+  - name: COSCUP Mattermost
+    url: https://chat.coscup.org
+    about: COSCUP 使用的溝通平臺
+  - name: COSCUP 2025 共筆文件
+    url: https://hackmd.io/team/coscup/folders/ZUrsF-lhmjxmb64ZGWt5g
+    about: COSCUP 的籌會文件
