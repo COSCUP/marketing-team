@@ -1,0 +1,40 @@
+name: 社群發文
+description: 用於追蹤每一篇社群貼文製作、排程、發布的進度
+type: Task
+labels:
+  - Content
+  - Publish
+  - Design
+  - year:2025
+projects:
+  - COSCUP/11
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **這是公開看板，請勿提及個資等敏感資訊**
+
+        ### 我們如何使用看板協作
+        1. 每一則社群貼文請開一張卡片，以追蹤文案與配圖進度。
+        2. 卡片標題同 2025 社群發文的各篇標題（X月X日 - 文案主題）
+        3. 文案與圖檔請附上連結，避免附件散落各處。
+        4. Labels 依照行銷組工作內容增刪
+  - type: textarea
+    attributes:
+      label: 任務內容
+      description: 請補上文案、配圖連結，並勾選要發佈的平台
+      value: |
+      ### 任務內容
+
+      - [ ] 文案：（連結放這裡）
+      - [ ] 配圖：（連結放這裡）
+
+      發文平台
+
+      - [ ] Facebook 
+      - [ ] Instagram
+      - [ ] X(Twitter)
+      - [ ] Telegram Channel    
+    validations:
+      required: true
+      
