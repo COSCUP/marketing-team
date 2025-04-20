@@ -24,17 +24,17 @@ body:
       label: 任務內容
       description: 請補上文案、配圖連結，並勾選要發佈的平台
       value: |
-      ### 任務內容
+        ### 任務內容
 
-      - [ ] 文案：（連結放這裡）
-      - [ ] 配圖：（連結放這裡）
+        - [ ] 文案：（連結放這裡）
+        - [ ] 配圖：（連結放這裡）
 
-      發文平台
+        發文平台
 
-      - [ ] Facebook 
-      - [ ] Instagram
-      - [ ] X(Twitter)
-      - [ ] Telegram Channel    
+        - [ ] Facebook 
+        - [ ] Instagram
+        - [ ] X(Twitter)
+        - [ ] Telegram Channel    
     validations:
       required: true
       
